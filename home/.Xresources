@@ -1,0 +1,10 @@
+########################################
+########## Matt's .Xresources ##########
+########################################
+
+Xft.dpi:	275
+Xft.autohint:	0
+Xft.hintstyle:	hintfull
+Xft.hinting:	1
+Xft.anialias:	1
+Xft.rgba:	rgb
