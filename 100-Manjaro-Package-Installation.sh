@@ -32,3 +32,6 @@ sudo pacman -S dmenu
 
 # Install i3-gaps, i3status, i3blocks, i3lock
 sudo pacman -S i3-gaps i3blocks i3lock i3status
+
+# Install xf86-input-synaptics
+sudo pacman -S xf86-input-synaptics
