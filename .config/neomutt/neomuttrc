@@ -1,0 +1,20 @@
+########################################
+##### Matt's Neomutt Configuration #####
+########################################
+
+set realname = "Matt McGinnis"
+set from = "mcginnisma90@gmail.com"
+set use_from = yes
+
+set smtp_url = "smtps://mcginnisma90@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = ""
+set imap_user = "mcginnisma90@gmail.com"
+set imap_pass = ""
+set folder = "imaps://imap.gmail.com"
+set spoolfile = "+INBOX"
+set ssl_force_tls = yes
+
+set editor = "vim"
+
+# Key bindings
+bind index G imap-fetch-mail
