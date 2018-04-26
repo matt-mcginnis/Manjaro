@@ -27,6 +27,9 @@ sudo pacman -Syyu
 ##### Package Installation #####
 ################################
 
+# Install atom
+sudo pacman -S atom
+
 # Install chromium
 sudo pacman -S chromium
 
@@ -38,6 +41,12 @@ sudo pacman -S gvim
 
 # Install i3-gaps, i3status, i3blocks, i3lock
 sudo pacman -S i3-gaps i3blocks i3lock i3status
+
+# Install lynx
+sudo pacman -S lynx
+
+# Install neomutt
+sudo pacman -S neomutt
 
 # Install xf86-input-synaptics
 sudo pacman -S xf86-input-synaptics
