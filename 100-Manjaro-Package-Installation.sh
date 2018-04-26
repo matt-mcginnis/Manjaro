@@ -45,6 +45,9 @@ sudo pacman -S i3-gaps i3blocks i3lock i3status
 # Install lynx
 sudo pacman -S lynx
 
+# Install mlocate
+sudo pacman -S mlocate
+
 # Install neomutt
 sudo pacman -S neomutt
 
