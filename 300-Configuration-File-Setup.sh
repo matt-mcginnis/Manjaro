@@ -14,8 +14,8 @@ sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/default/tlp /etc/default/
 # Replace .Xresources with personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xresources ~/
 
-# Add .ESCswapCAPS to ~/
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.ESCswapCAPS ~/
+# Add .Xmodmap to ~/
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xmodmap ~/
 
 # Replace xorg.conf.d files
 sudo rm -r /etc/X11/xorg.conf.d/
