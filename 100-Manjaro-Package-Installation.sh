@@ -30,9 +30,6 @@ sudo pacman -Syyu
 # Install atom
 sudo pacman -S atom
 
-# Install chromium
-sudo pacman -S chromium
-
 # Install dmenu
 sudo pacman -S dmenu
 
