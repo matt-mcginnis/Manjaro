@@ -48,5 +48,8 @@ sudo pacman -S mlocate
 # Install neomutt
 sudo pacman -S neomutt
 
+# Install ranger
+sudo pacman -S ranger
+
 # Install xf86-input-synaptics
 sudo pacman -S xf86-input-synaptics
