@@ -51,5 +51,8 @@ sudo pacman -S neomutt
 # Install ranger
 sudo pacman -S ranger
 
+# Install sysstat
+sudo pacman -S sysstat
+
 # Install xf86-input-synaptics
 sudo pacman -S xf86-input-synaptics
