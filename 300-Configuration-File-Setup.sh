@@ -27,5 +27,8 @@ sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/etc/X11/xorg.conf.d/ /etc/X11/
 # Replace i3 configuration with personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3/ ~/.config/
 
+# Replace i3blocks with personal configuration
+cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3blocks/ ~/.config/
+
 # Copy neomuttrc personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/neomutt/ ~/.config/
