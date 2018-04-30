@@ -30,6 +30,9 @@ sudo pacman -Syyu
 # Install atom
 sudo pacman -S atom
 
+# Install bumblebee
+sudo pacman -S bumblebee
+
 # Install dmenu
 sudo pacman -S dmenu
 
@@ -42,11 +45,17 @@ sudo pacman -S i3-gaps i3blocks i3lock i3status
 # Install lynx
 sudo pacman -S lynx
 
+# Install mesa
+sudo pacman -S mesa
+
 # Install mlocate
 sudo pacman -S mlocate
 
 # Install neomutt
 sudo pacman -S neomutt
+
+# Install nvidia
+sudo pacman -S nvidia
 
 # Install ranger
 sudo pacman -S ranger
@@ -56,3 +65,6 @@ sudo pacman -S sysstat
 
 # Install xf86-input-synaptics
 sudo pacman -S xf86-input-synaptics
+
+# Install xf86-video-intel
+sudo pacman -S xf86-video-intel
