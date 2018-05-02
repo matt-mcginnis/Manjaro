@@ -26,5 +26,10 @@ filetype indent on
 " This allows vim to invoke syntax coloring
 syntax on
 
+" Settings for all instances of vim
+:set number
+:set mouse=a
+:set backspace=indent,eol,start
+
 " Vim-Latex Settings
 let g:tex_flavor='latex'
