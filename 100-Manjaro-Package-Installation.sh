@@ -51,11 +51,11 @@ sudo pacman -S neomutt
 # Install ranger
 sudo pacman -S ranger
 
-# Install screen
-sudo pacman -S screen
-
 # Install sysstat
 sudo pacman -S sysstat
+
+# Install tmux
+sudo pacman -S tmux
 
 # Install vlc
 sudo pacman -S vlc
