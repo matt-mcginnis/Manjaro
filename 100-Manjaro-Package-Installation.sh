@@ -27,13 +27,6 @@ sudo pacman -Syyu
 ##### Package Installation #####
 ################################
 
-# Install atom with configuration loaded from GitHub
-sudo pacman -S atom
-apm install sync-settings
-GITHUB_TOKEN=d8edfa349b45c027208fb6c7a4100e618362a49c
-GIST_ID=9829d276079ff34e73a7c0fadf3c66d7
-atom
-
 # Install dmenu
 sudo pacman -S dmenu
 
