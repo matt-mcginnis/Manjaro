@@ -53,7 +53,8 @@ sudo pacman -S neomutt
 sudo pacman -S ranger
 
 # Install ruby
-curl -sSL https://get.rvm.io | bash -s stable
+curl -sSL https://get.rvm.io -o rvm.sh
+cat rvm.sh | bash -s stable
 source ~/.rvm/scripts/rvm
 rvm install 2.4
 rvm use 2.4
