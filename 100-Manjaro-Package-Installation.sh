@@ -27,6 +27,10 @@ sudo pacman -Syyu
 ##### Package Installation #####
 ################################
 
+# Install atom
+sudo pacman -S atom
+apm install sync-settings
+
 # Install dmenu
 sudo pacman -S dmenu
 
@@ -47,6 +51,14 @@ sudo pacman -S neomutt
 
 # Install ranger
 sudo pacman -S ranger
+
+# Install ruby
+curl -sSL https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm install 2.4
+rvm use 2.4
+rvm --default use 2.4
+gem install rails
 
 # Install sysstat
 sudo pacman -S sysstat
