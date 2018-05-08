@@ -73,3 +73,6 @@ sudo pacman -S vlc
 
 # Install xf86-input-synaptics
 sudo pacman -S xf86-input-synaptics
+
+# Install xorg-xbacklight
+sudo pacman -S xorg-xbacklight

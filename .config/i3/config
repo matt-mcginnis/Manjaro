@@ -42,6 +42,26 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+##########################################
+##### Volume and Brightness Controls #####
+##########################################
+
+##############
+### Volume ###
+##############
+
+# Modifying RaiseVolume and LowerVolume increments
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +2% #Increase Volume by 2%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -2% #Decrease Volume by 2%
+
+##################
+### Brightness ###
+##################
+
+# Screen brightness controls
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 #Increase Brightness by 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 #Decrease Brightness by 5
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
