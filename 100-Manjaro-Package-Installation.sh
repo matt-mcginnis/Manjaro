@@ -57,9 +57,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 curl -sSL https://get.rvm.io -o rvm.sh
 cat rvm.sh | bash -s stable
 source ~/.rvm/scripts/rvm
-rvm install 2.4
-rvm use 2.4
-rvm --default use 2.4
+rvm install ruby --default
 gem install rails
 
 # Install sysstat
