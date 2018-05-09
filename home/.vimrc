@@ -15,6 +15,9 @@ Plugin 'VundleVim/Vundle.vim'
 "Install vim-latex
 Plugin 'vim-latex/vim-latex'
 
+"Install ctrlp
+Plugin 'ctrlpvim/ctrlp.vim'
+
 call vundle#end()
 
 " This allows vim to invoke plugins for specific filetypes
