@@ -34,6 +34,10 @@ syntax on
 " Vim-Latex Settings
 let g:tex_flavor='latex'
 
-" Map Ctrl-S to save file
+" Map ctrl-S to save file
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
+
+" Map ctrl-w-q to quit
+:nmap <c-w><c-q> :q<CR>
+:imap <c-w><c-q> <Esc>:q<CR>
