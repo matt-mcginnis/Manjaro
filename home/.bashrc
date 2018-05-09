@@ -149,3 +149,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Enables user to run ruby scripts from command line
 source ~/.rvm/scripts/rvm
+
+# Unbind Ctrl-S as a terminal keybinding
+bind -r '\C-s'
+stty -ixon

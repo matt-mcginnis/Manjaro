@@ -33,3 +33,7 @@ syntax on
 
 " Vim-Latex Settings
 let g:tex_flavor='latex'
+
+" Map Ctrl-S to save file
+:nmap <c-s> :w<CR>
+:imap <c-s> <Esc>:w<CR>a
