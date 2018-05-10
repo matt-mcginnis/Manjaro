@@ -53,6 +53,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # Modifying RaiseVolume and LowerVolume increments
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +2% #Increase Volume by 2%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -2% #Decrease Volume by 2%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle #Mute
 
 ##################
 ### Brightness ###
