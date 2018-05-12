@@ -39,3 +39,11 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
 # Copy .bashrc personal configuration
 sudo rm ~/.bashrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
+
+### SSH key setup ###
+ssh-keygen -C mcginnisma90@gmail.com -t rsa
+
+# Be sure to delete the old linux key and replace it on GitHub
+
+# Be sure to delete the old key on Heroku
+heroku keys:add
