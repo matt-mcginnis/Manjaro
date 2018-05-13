@@ -47,6 +47,7 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
 ssh-keygen -C mcginnisma90@gmail.com -t rsa
 
 # Be sure to delete the old linux key and replace it on GitHub
+# Run cat ~/.ssh/id_rsa.pub to get key for GitHub
 
 # Be sure to delete the old key on Heroku
 heroku keys:add
