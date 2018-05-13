@@ -141,14 +141,17 @@ ex ()
 # better yaourt colors
 export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
 
+###########################################
+##### Personal Configuration Settings #####
+###########################################
+
 # Set vim as default editor
 export EDITOR=vim
 
+# Enables user to run ruby scripts from command line
+source ~/.rvm/scripts/rvm
 # Enables all users to run ruby scripts from command line
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-# Enables user to run ruby scripts from command line
-source ~/.rvm/scripts/rvm
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change. (This is added automatically when rvm is installed.)
 export PATH="$PATH:$HOME/.rvm/bin"
