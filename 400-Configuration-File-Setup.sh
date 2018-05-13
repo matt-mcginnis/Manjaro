@@ -40,6 +40,9 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
 sudo rm ~/.bashrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
 
+# Copy .tmux.conf personal configuration
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
+
 ### SSH key setup ###
 ssh-keygen -C mcginnisma90@gmail.com -t rsa
 
