@@ -60,6 +60,8 @@ rvm install 2.4
 rvm use 2.4
 rvm --default use 2.4
 gem install rails
+gem install rubocop
+gem install ruby-beautify
 
 # Install sysstat
 sudo pacman -S sysstat
