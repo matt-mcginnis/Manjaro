@@ -49,6 +49,13 @@ sudo pacman -S mlocate
 # Install neomutt
 sudo pacman -S neomutt
 
+# Install pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+
+# Install pybeautifier
+sudo pip install pybeautifier
+
 # Install ranger
 sudo pacman -S ranger
 
@@ -59,6 +66,7 @@ source ~/.rvm/scripts/rvm
 rvm install 2.4
 rvm use 2.4
 rvm --default use 2.4
+gem install htmlbeautifier
 gem install rails
 gem install rubocop
 gem install ruby-beautify
