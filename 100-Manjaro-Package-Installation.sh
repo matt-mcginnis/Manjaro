@@ -80,6 +80,9 @@ gem install ruby-beautify
 # Install sysstat
 sudo pacman -S sysstat
 
+# Install texlive
+sudo pacman -S texlive-most
+
 # Install tmux
 sudo pacman -S tmux
 
@@ -94,3 +97,6 @@ sudo pacman -S xf86-input-synaptics
 
 # Install xorg-xbacklight
 sudo pacman -S xorg-xbacklight
+
+# Install zathura
+sudo pacman -S zathura
