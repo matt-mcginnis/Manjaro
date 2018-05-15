@@ -52,6 +52,9 @@ sudo pacman -S mlocate
 # Install neomutt
 sudo pacman -S neomutt
 
+# Install php
+sudo pacman -S php
+
 # Install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
