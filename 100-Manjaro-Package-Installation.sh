@@ -34,6 +34,9 @@ apm install sync-settings
 # Install dmenu
 sudo pacman -S dmenu
 
+# Install gnome-terminal-fedora (for transparency)
+sudo pacman -S gnome-terminal-fedora
+
 # Install gvim
 sudo pacman -S gvim
 
