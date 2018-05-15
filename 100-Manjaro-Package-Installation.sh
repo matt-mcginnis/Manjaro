@@ -37,6 +37,9 @@ sudo pacman -S dmenu
 # Install gvim
 sudo pacman -S gvim
 
+# Install heroku toolbelt
+curl https://cli-assets.heroku.com/install-standalone.sh | sh
+
 # Install i3-gaps, i3status, i3blocks, i3lock
 sudo pacman -S i3-gaps i3blocks i3lock i3status
 
@@ -79,6 +82,9 @@ sudo pacman -S tmux
 
 # Install vlc
 sudo pacman -S vlc
+
+# Install vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install xf86-input-synaptics
 sudo pacman -S xf86-input-synaptics
