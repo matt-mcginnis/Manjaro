@@ -24,7 +24,7 @@ call vundle#end()
 filetype plugin on
 
 " This allows vim to invoke indentation for specific filetypes
-filetype indent on
+filetype plugin indent on
 
 " This allows vim to invoke syntax coloring
 syntax on
@@ -35,5 +35,10 @@ syntax on
 :set backspace=indent,eol,start
 
 " Vim-Latex Settings
+set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
+let g:tex_CompileRule_pdf='pdflatex -synctex=1 --interaction=nonstopmode $*'
+let g:Tex_ViewRule_pdf='zathura'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats = 'pdf, aux'
 
