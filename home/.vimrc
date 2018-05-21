@@ -12,11 +12,22 @@ call vundle#begin()
 "Let vundle manage vundle (required).
 Plugin 'VundleVim/Vundle.vim'
 
+"Install ctrlp
+Plugin 'ctrlpvim/ctrlp.vim'
+
+"Install emmet
+Plugin 'mattn/emmet-vim'
+
+"Install ultisnips
+Plugin 'SirVer/ultisnips'
+
 "Install vim-latex
 Plugin 'vim-latex/vim-latex'
 
-"Install ctrlp
-Plugin 'ctrlpvim/ctrlp.vim'
+"Install YCM
+"Be sure to navigate to ~/.vim/bundle/YouCompleteMe
+"and run 'python install.py'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
