@@ -31,6 +31,9 @@ sudo pacman -Syyu
 sudo pacman -S atom
 apm install sync-settings
 
+# Install cmake
+sudo pacman -S cmake
+
 # Install dmenu
 sudo pacman -S dmenu
 
