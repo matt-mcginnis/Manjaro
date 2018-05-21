@@ -20,6 +20,8 @@ Plugin 'mattn/emmet-vim'
 
 "Install ultisnips
 Plugin 'SirVer/ultisnips'
+"Install the actual snippets
+Plugin 'honza/vim-snippets'
 
 "Install vim-latex
 Plugin 'vim-latex/vim-latex'
@@ -33,9 +35,6 @@ call vundle#end()
 
 " This allows vim to invoke plugins for specific filetypes
 filetype plugin on
-
-" This allows vim to invoke indentation for specific filetypes
-filetype plugin indent on
 
 " This allows vim to invoke syntax coloring
 syntax on
@@ -52,4 +51,14 @@ let g:tex_CompileRule_pdf='pdflatex -synctex=1 --interaction=nonstopmode $*'
 let g:Tex_ViewRule_pdf='zathura'
 let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_MultipleCompileFormats = 'pdf, aux'
+
+" Ultisnippets Settings
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-e>"
+let g:UltiSnipsListSnippets="<c-l>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
