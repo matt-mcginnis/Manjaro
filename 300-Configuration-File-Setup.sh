@@ -10,6 +10,9 @@ sudo timedatectl set-local-rtc 1 --adjust-system-clock
 # Run to use the locate command
 sudo ionice -c3 updatedb
 
+# Set default terminal to urxvt
+sudo gsettings set org.cinnamon.desktop.default-applications.terminal exec /usr/bin/urxvt
+
 # Replace tlp with personal configuration (SOUND_POWER_SAVE_ON_BAT=0)
 sudo rm /etc/default/tlp
 sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/default/tlp /etc/default/
