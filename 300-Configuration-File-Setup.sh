@@ -36,6 +36,9 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3blocks/ ~/.config/
 # Copy neomuttrc personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/neomutt/ ~/.config/
 
+# Copy ranger personal configuration
+cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/ranger/ ~/.config/
+
 # Copy .vimrc personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
 

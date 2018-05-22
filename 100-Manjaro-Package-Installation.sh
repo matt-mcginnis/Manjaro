@@ -93,9 +93,6 @@ sudo pacman -S texlive-most
 # Install tmux
 sudo pacman -S tmux
 
-# Install urxvt
-sudo pacman -S rxvt-unicode
-
 # Install vlc
 sudo pacman -S vlc
 
