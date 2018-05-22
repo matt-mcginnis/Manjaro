@@ -55,5 +55,5 @@ URxvt*background:                 black
 URxvt*foreground:                 white
 URxvt*saveLines:                  5000
 
-# Perl Extensions
+!! Perl Extensions
 URxvt.perl-ext-common: resize-font
