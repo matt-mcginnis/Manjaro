@@ -1,6 +1,6 @@
-########################################
-########## Matt's .Xresources ##########
-########################################
+#######################################
+########## Matts .Xresources ##########
+#######################################
 
 Xft.dpi:	275
 Xft.autohint:	0
@@ -8,3 +8,49 @@ Xft.hintstyle:	hintfull
 Xft.hinting:	1
 Xft.anialias:	1
 Xft.rgba:	rgb
+
+###############################
+##### URXVT Configuration #####
+###############################
+
+!! black dark/light
+*color0:                          #232423
+*color8:                          #282928
+
+!! red dark/light
+*color1:                          #BA2922
+*color9:                          #CC372C
+
+!! green dark/light
+*color2:                          #7E807E
+*color10:                         #8D8F8D
+
+!! yellow dark/light
+*color3:                          #4C4F4D
+*color11:                         #4E524F
+
+!! blue dark/light
+*color4:                          #16A085
+*color12:                         #13BF9D
+
+!! magenta dark/light
+*color5:                          #43746A
+*color13:                         #487D72
+
+!! cyan dark/light
+*color6:                          #00CCCC
+*color14:                         #00D1D1
+
+!! white dark/light
+*color7:                          #E0E0E0
+*color15:                         #E8E8E8
+
+URxvt.font: 			  xft:monospace:size=11
+URxvt.depth:                      32
+URxvt.background:                 [80]#000000
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*background:                 black
+URxvt*foreground:                 white
+URxvt*saveLines:                  5000
