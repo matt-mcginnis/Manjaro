@@ -30,10 +30,6 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3/ ~/.config/
 # Replace i3blocks with personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3blocks/ ~/.config/
 
-# Copy lynx personal configuration
-sudo rm /etc/lynx.cfg
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/lynx.cfg /etc/
-
 # Copy neomuttrc personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/neomutt/ ~/.config/
 
