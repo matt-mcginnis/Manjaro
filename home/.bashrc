@@ -145,9 +145,6 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 ##### Personal Configuration Settings #####
 ###########################################
 
-# Enable HiDPI for qutebrowser
-export QT_AUTO_SCREEN_SCALE_FACTOR=1
-
 # Set vim as default editor
 export EDITOR=vim
 

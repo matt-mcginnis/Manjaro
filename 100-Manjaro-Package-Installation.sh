@@ -66,6 +66,9 @@ sudo rm ~/get-pip.py
 # Install pybeautifier
 sudo pip install pybeautifier
 
+# Install qutebrowser
+sudo pacman -S qutebrowser
+
 # Install ranger
 sudo pacman -S ranger
 
