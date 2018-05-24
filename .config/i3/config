@@ -62,6 +62,12 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle #Mute
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 #Increase Brightness by 5
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 #Decrease Brightness by 5
 
+######################################
+##### Touchpad Toggle Keybinding #####
+######################################
+
+bindsym $mod+shift+t exec ~/.config/i3/.touch_toggle.sh
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
