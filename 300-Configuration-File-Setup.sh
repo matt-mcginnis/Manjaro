@@ -11,7 +11,6 @@ sudo timedatectl set-local-rtc 1 --adjust-system-clock
 sudo ionice -c3 updatedb
 
 # Replace qutebrowser with personal configuration
-sudo rm -r ~/.config/qutebrowser
 sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qutebrowser ~/.config/
 
 # Replace tlp with personal configuration (SOUND_POWER_SAVE_ON_BAT=0)
