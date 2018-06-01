@@ -37,6 +37,9 @@ sudo pacman -S cmake
 # Install dmenu
 sudo pacman -S dmenu
 
+# Install feh
+sudo pacman -S feh
+
 # Install gnome-terminal-fedora (for transparency)
 sudo pacman -S gnome-terminal-fedora
 
