@@ -34,6 +34,9 @@ apm install sync-settings
 # Install cmake
 sudo pacman -S cmake
 
+# Install compton
+sudo pacman -S compton
+
 # Install dmenu
 sudo pacman -S dmenu
 
