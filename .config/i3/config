@@ -41,6 +41,13 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+############################
+##### Daemon Processes #####
+############################
+
+exec --no-startup-id compton -b
+exec --no-startup-id feh --bg-scale /usr/share/backgrounds/cinnamon/cinnamon-adapta-maia.jpg
+
 ##########################################
 ##### Volume and Brightness Controls #####
 ##########################################
