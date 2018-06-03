@@ -1,4 +1,3 @@
-#!/bin/bash
 
 ##############################################
 ########## AUR Package Installation ##########
@@ -9,9 +8,6 @@ yaourt google-chrome
 
 # Install i3exit
 yaourt i3exit
-
-# Install nerd-fonts-complete
-yaourt nerd-fonts-complete
 
 # Install rxvt-unicode-pixbuf
 yaourt rxvt-unicode-pixbuf
