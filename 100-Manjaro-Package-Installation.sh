@@ -43,6 +43,9 @@ sudo pacman -S dmenu
 # Install feh
 sudo pacman -S feh
 
+# Install ttf-font-awesome
+sudo pacman -S ttf-font-awesome
+
 # Install gnome-terminal-fedora (for transparency)
 sudo pacman -S gnome-terminal-fedora
 
