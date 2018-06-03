@@ -58,6 +58,9 @@ sudo pacman -S i3-gaps i3blocks i3lock i3status
 # Install mlocate
 sudo pacman -S mlocate
 
+# Install neofetch
+sudo pacman -S neofetch
+
 # Install neomutt
 sudo pacman -S neomutt
 
@@ -117,3 +120,9 @@ sudo pacman -S xorg-xbacklight
 # Install zathura
 sudo pacman -S zathura
 sudo pacman -S zathura-pdf-mupdf
+
+####################
+### pip Installs ###
+####################
+
+sudo pip install powerline-shell
