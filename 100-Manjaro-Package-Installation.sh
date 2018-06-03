@@ -75,6 +75,9 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 sudo rm ~/get-pip.py
 
+# Install powerline and powerline-fonts
+sudo pacman -S powerline powerline-fonts
+
 # Install pybeautifier
 sudo pip install pybeautifier
 
