@@ -18,6 +18,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 "Install emmet
 Plugin 'mattn/emmet-vim'
 
+"Install powerline
+Plugin 'powerline/powerline'
+
 "Install ultisnips
 Plugin 'SirVer/ultisnips'
 "Install the actual snippets
@@ -43,6 +46,19 @@ syntax on
 :set number
 :set mouse=a
 :set backspace=indent,eol,start
+
+" Powerline Settings
+let g:powerline_pycmd="py3"
+:set laststatus=2
+
+if ! has('gui_running')
+    set ttimeoutlen=10
+    augroup FastEscape
+        autocmd!
+        au InsertEnter * set timeoutlen=0
+        au InsertLeave * set timeoutlen=1000
+    augroup END
+endif
 
 " Vim-Latex Settings
 set grepprg=grep\ -nH\ $*

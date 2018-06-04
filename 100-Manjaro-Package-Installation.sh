@@ -78,6 +78,9 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 sudo rm ~/GitHub/Manjaro-Linux-Cinnamon/get-pip.py
 
+# Install powerline
+sudo pacman -S powerline powerline-fonts powerline-vim
+
 # Install pybeautifier
 sudo pip install pybeautifier
 
@@ -126,8 +129,3 @@ sudo pacman -S xorg-xbacklight
 # Install zathura
 sudo pacman -S zathura
 sudo pacman -S zathura-pdf-mupdf
-
-#########################
-### pip Installations ###
-#########################
-sudo pip install powerline-shell
