@@ -43,6 +43,9 @@ sudo pacman -S dmenu
 # Install feh
 sudo pacman -S feh
 
+# Install flash
+sudo pacman -S flashplugin
+
 # Install ttf-font-awesome
 sudo pacman -S ttf-font-awesome
 
@@ -73,10 +76,7 @@ sudo pacman -S php
 # Install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
-sudo rm ~/get-pip.py
-
-# Install powerline and powerline-fonts
-sudo pacman -S powerline powerline-fonts
+sudo rm ~/GitHub/Manjaro-Linux-Cinnamon/get-pip.py
 
 # Install pybeautifier
 sudo pip install pybeautifier
@@ -127,3 +127,7 @@ sudo pacman -S xorg-xbacklight
 sudo pacman -S zathura
 sudo pacman -S zathura-pdf-mupdf
 
+#########################
+### pip Installations ###
+#########################
+sudo pip install powerline-shell
