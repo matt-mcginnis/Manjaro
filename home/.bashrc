@@ -148,10 +148,14 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 # Set vim as default editor
 export EDITOR=vim
 
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-. /usr/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
+# Activate powerline shell
+function _update_ps1() {
+    PS1=$(powerline-shell $?)
+}
+
+if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
 
 # Enables user to run ruby scripts from command line
 source ~/.rvm/scripts/rvm

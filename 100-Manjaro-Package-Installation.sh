@@ -129,3 +129,9 @@ sudo pacman -S xorg-xbacklight
 # Install zathura
 sudo pacman -S zathura
 sudo pacman -S zathura-pdf-mupdf
+
+#########################
+### pip Installations ###
+#########################
+
+sudo pip install powerline-shell
