@@ -18,6 +18,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 "Install emmet
 Plugin 'mattn/emmet-vim'
 
+"Install nerdtree
+Plugin 'scrooloose/nerdtree'
+
 "Install powerline
 Plugin 'powerline/powerline'
 
@@ -46,6 +49,9 @@ syntax on
 :set number
 :set mouse=a
 :set backspace=indent,eol,start
+
+" Settings for gvim
+:set guifont=Dejavu\ Sans\ Mono\ for\ Powerline\ 12
 
 " Powerline Settings
 let g:powerline_pycmd="py3"

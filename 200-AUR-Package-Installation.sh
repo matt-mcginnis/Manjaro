@@ -14,3 +14,24 @@ yaourt i3exit
 
 # Install urxvt-resize-font-git
 # yaourt urxvt-resize-font-git
+
+##############################################
+########## pip Package Installation ##########
+##############################################
+
+# Install powerline-shell
+pip install powerline-shell
+
+#################################################
+########## GitHub Package Installation ##########
+#################################################
+
+# Install patched powerline fonts
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
