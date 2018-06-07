@@ -70,6 +70,9 @@ sudo pacman -S neofetch
 # Install neomutt
 sudo pacman -S neomutt
 
+# Install pepper-flash for chrome
+sudo pacman -S pepper-flash
+
 # Install php
 sudo pacman -S php
 
