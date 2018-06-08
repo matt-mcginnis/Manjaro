@@ -35,3 +35,11 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+###############################################
+########## wget Package Installation ##########
+###############################################
+
+# Install oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
