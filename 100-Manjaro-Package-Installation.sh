@@ -133,3 +133,5 @@ sudo pacman -S xorg-xbacklight
 sudo pacman -S zathura
 sudo pacman -S zathura-pdf-mupdf
 
+# Install zsh and zsh-completions
+sudo pacman -S zsh zsh-completions

@@ -60,3 +60,6 @@ ssh-keygen -C mcginnisma90@gmail.com -t rsa
 
 # Be sure to delete the old key on Heroku
 heroku keys:add
+
+# Make zsh the default shell
+chsh -s /bin/zsh
