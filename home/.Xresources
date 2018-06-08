@@ -13,21 +13,21 @@ Xft.rgba:	rgb
 ##### URXVT Configuration #####
 ###############################
 
-!*background:		#272727
-!*foreground:		#b2b2b2
+*background:		#272727
+*foreground:		#b2b2b2
 
-!URxvt.font: 		xft:monospace:size=11
-!URxvt.scrollBar: 	false
+URxvt.font: 		xft:monospace:size=11
+URxvt.scrollBar: 	false
 
-!URxvt.depth:		32
-!URxvt.background:	[80]#000000
-!URxvt*background:	black
-!URxvt*forground:	grey
-!URxvt*savelines:	5000
+URxvt.depth:		32
+URxvt.background:	[80]#000000
+URxvt*background:	black
+URxvt*forground:	grey
+URxvt*savelines:	5000
 
 !! Perl Extensions
-!URxvt.perl-ext-common: 	resize-font
+URxvt.perl-ext-common: 	resize-font
 
 !! Disable Key Bindings
-!URxvt.iso14755: 	false
-!URxvt.iso14755_52: 	false
+URxvt.iso14755: 	false
+URxvt.iso14755_52: 	false

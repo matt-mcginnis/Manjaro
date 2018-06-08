@@ -10,10 +10,10 @@ yaourt google-chrome
 yaourt i3exit
 
 # Install rxvt-unicode-pixbuf
-# yaourt rxvt-unicode-pixbuf
+yaourt rxvt-unicode-pixbuf
 
 # Install urxvt-resize-font-git
-# yaourt urxvt-resize-font-git
+yaourt urxvt-resize-font-git
 
 ##############################################
 ########## pip Package Installation ##########
