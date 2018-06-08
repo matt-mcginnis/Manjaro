@@ -82,7 +82,7 @@ sudo python get-pip.py
 sudo rm ~/GitHub/Manjaro-Linux-Cinnamon/get-pip.py
 
 # Install powerline
-sudo pacman -S powerline powerline-fonts powerline-vim
+sudo pacman -S powerline powerline-vim
 
 # Install pybeautifier
 sudo pip install pybeautifier
