@@ -71,6 +71,8 @@ sudo pacman -S neofetch
 sudo pacman -S neomutt
 
 # Install pepper-flash for chrome
+# Be sure to go to the chrome settings
+# to allow flash for specific websites.
 sudo pacman -S pepper-flash
 
 # Install php
