@@ -49,6 +49,9 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
 sudo rm ~/.bashrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
 
+# Copy .oh-my-zsh/custom personal configurations
+sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/
+
 # Copy .tmux.conf personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
 
