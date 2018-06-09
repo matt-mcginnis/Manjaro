@@ -52,6 +52,9 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
 # Copy .tmux.conf personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
 
+# Copy .zshrc personal configuration
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
+
 ### SSH key setup ###
 ssh-keygen -C mcginnisma90@gmail.com -t rsa
 
