@@ -15,13 +15,6 @@ yaourt rxvt-unicode-pixbuf
 # Install urxvt-resize-font-git
 yaourt urxvt-resize-font-git
 
-##############################################
-########## pip Package Installation ##########
-##############################################
-
-# Install powerline-shell
-pip install powerline-shell
-
 #################################################
 ########## GitHub Package Installation ##########
 #################################################
