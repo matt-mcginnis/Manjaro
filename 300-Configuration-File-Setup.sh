@@ -45,6 +45,9 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/ranger/ ~/.config/
 # Copy .vimrc personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
 
+# Copy .vim/after/ personal configuration
+cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
+
 # Copy .bashrc personal configuration
 sudo rm ~/.bashrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
