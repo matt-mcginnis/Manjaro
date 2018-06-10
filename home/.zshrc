@@ -93,3 +93,23 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#######################
+##### Keybindings #####
+#######################
+
+# auto-suggestions
+bindkey '^ ' autosuggest-accept
+
+#######################
+##### Enable Ruby #####
+#######################
+
+# Enables user to run ruby scripts from command line
+source ~/.rvm/scripts/rvm
+# Enables all users to run ruby scripts from command line
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change. (This is added automatically when rvm is installed.)
+export PATH="$PATH:$HOME/.rvm/bin"
+
