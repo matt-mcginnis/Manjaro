@@ -51,7 +51,9 @@ syntax on
 :set backspace=indent,eol,start
 
 " Settings for gvim
+colorscheme darkblue
 :set guifont=Dejavu\ Sans\ Mono\ for\ Powerline\ 12
+:set guicursor+=a:blinkon0
 
 " Powerline Settings
 let g:powerline_pycmd="py3"
@@ -78,9 +80,32 @@ let g:Tex_MultipleCompileFormats = 'pdf, aux'
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<c-e>"
 let g:UltiSnipsListSnippets="<c-l>"
-let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+"#######################
+"##### Keybindings #####
+"#######################
+
+"############
+"### Tabs ###
+"############
+
+"Open new file with horizontal split
+nmap ;nh :new<Space>
+
+"Open new file with vertical split
+nmap ;nv :vert<Space>new<Space>
+
+"Open new file in new tab
+nmap ;nt :tabnew<Space>
+
+"Close current tab
+nmap ;ct <Esc>:tabclose<CR>
+
+"Close current window
+nmap ;cw <Esc>:close<CR>
 
