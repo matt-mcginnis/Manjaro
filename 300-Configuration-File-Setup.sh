@@ -4,28 +4,9 @@
 ########### Configuration Setup Script ###########
 ##################################################
 
-# Set time to local-time (Dual Boot with Windows)
-sudo timedatectl set-local-rtc 1 --adjust-system-clock
-
-# Run to use the locate command
-sudo ionice -c3 updatedb
-
-# Replace qutebrowser with personal configuration
-sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qutebrowser ~/.config/
-
-# Replace tlp with personal configuration (SOUND_POWER_SAVE_ON_BAT=0)
-sudo rm /etc/default/tlp
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/default/tlp /etc/default/
-
-# Replace .Xresources with personal configuration
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xresources ~/
-
-# Add .Xmodmap to ~/
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xmodmap ~/
-
-# Replace xorg.conf.d files
-sudo rm -r /etc/X11/xorg.conf.d/
-sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/etc/X11/xorg.conf.d/ /etc/X11/
+################################
+##### .config file changes #####
+################################
 
 # Replace i3 configuration with personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3/ ~/.config/
@@ -42,33 +23,84 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/powerline ~/.config/
 # Copy ranger personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/ranger/ ~/.config/
 
+# Replace qutebrowser with personal configuration
+sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qutebrowser ~/.config/
+
+
+############################
+##### etc file changes #####
+############################
+
+# Replace tlp with personal configuration (SOUND_POWER_SAVE_ON_BAT=0)
+sudo rm /etc/default/tlp
+sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/default/tlp /etc/default/
+
+# Replace xorg.conf.d files
+sudo rm -r /etc/X11/xorg.conf.d/
+sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/etc/X11/xorg.conf.d/ /etc/X11/
+
+
+#############################
+##### home file changes #####
+#############################
+
+# Copy .bashrc personal configuration
+sudo rm ~/.bashrc
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
+
+# Copy .tmux.conf personal configuration
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
+
+# Add .Xmodmap to ~/
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xmodmap ~/
+
+# Replace .Xresources with personal configuration
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xresources ~/
+
+
+#####################
+##### vim setup #####
+#####################
+
 # Copy .vimrc personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
 
 # Copy .vim/after/ personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
 
-# Copy .bashrc personal configuration
-sudo rm ~/.bashrc
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
+
+#####################
+##### zsh setup #####
+#####################
+
+# Make zsh the default shell
+chsh -s /bin/zsh
 
 # Copy .oh-my-zsh/custom personal configurations
 sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/
 
-# Copy .tmux.conf personal configuration
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
-
 # Copy .zshrc personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
 
-### SSH key setup ###
-ssh-keygen -C mcginnisma90@gmail.com -t rsa
+###################################
+##### Various System Settings #####
+###################################
 
-# Be sure to delete the old linux key and replace it on GitHub
-# Run cat ~/.ssh/id_rsa.pub to get key for GitHub
+# Run to use the locate command
+sudo ionice -c3 updatedb
+
+# Set time to local-time (Dual Boot with Windows)
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
+
+#####################
+### SSH key setup ###
+#####################
+
+ssh-keygen -C mcginnisma90@gmail.com -t rsa
 
 # Be sure to delete the old key on Heroku
 heroku keys:add
 
-# Make zsh the default shell
-chsh -s /bin/zsh
+# Be sure to delete the old linux key and replace it on GitHub
+# Run cat ~/.ssh/id_rsa.pub to get key for GitHub
+
