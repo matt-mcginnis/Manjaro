@@ -89,6 +89,9 @@ sudo pacman -S powerline powerline-vim
 # Install pybeautifier
 sudo pip install pybeautifier
 
+# Install pywal
+sudo pacman -S python-pywal
+
 # Install qutebrowser
 sudo pacman -S qutebrowser
 
