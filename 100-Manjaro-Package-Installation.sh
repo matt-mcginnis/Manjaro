@@ -112,6 +112,9 @@ gem install rails
 gem install rubocop
 gem install ruby-beautify
 
+# Install syncthing
+sudo pacman -S syncthing
+
 # Install sysstat
 sudo pacman -S sysstat
 

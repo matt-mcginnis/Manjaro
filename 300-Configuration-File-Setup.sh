@@ -89,6 +89,9 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
 # Run to use the locate command
 sudo ionice -c3 updatedb
 
+# Set syncthing to run on startup
+sudo systemctl enable syncthing@matt.service
+
 # Set time to local-time (Dual Boot with Windows)
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
 
