@@ -23,6 +23,9 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/powerline ~/.config/
 # Copy ranger personal configuration
 cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/ranger/ ~/.config/
 
+# Copy qtile personal configuration
+cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qtile/ ~/.config/
+
 # Replace qutebrowser with personal configuration
 sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qutebrowser ~/.config/
 
