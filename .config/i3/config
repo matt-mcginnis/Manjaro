@@ -47,6 +47,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 
 exec --no-startup-id compton -b
 exec --no-startup-id feh --bg-scale /usr/share/backgrounds/cinnamon/cinnamon-adapta-maia.jpg
+exec --no-startup-id nm-applet
 
 ##########################################
 ##### Volume and Brightness Controls #####
