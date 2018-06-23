@@ -30,14 +30,14 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# Install zsh-autosuggestions
-cd ~/.oh-my-zsh/custom/plugins
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-###############################################
-########## wget Package Installation ##########
-###############################################
+############################################
+########## oh-my-zsh Installation ##########
+############################################
 
 # Install oh-my-zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+# Install zsh-autosuggestions
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
