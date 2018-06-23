@@ -82,7 +82,10 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
 chsh -s /bin/zsh
 
 # Copy .oh-my-zsh/custom personal configurations
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/
+sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/custom/
+
+# Copy oh-my-zsh.sh
+sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/oh-my-zsh.sh ~/.oh-my-zsh/
 
 # Copy .zshrc personal configuration
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
