@@ -1,8 +1,8 @@
 #!/bin/bash
 
-##################################################
-########### Configuration Setup Script ###########
-##################################################
+########################################################
+########### Installation of Manjaro Packages ###########
+########################################################
 
 # It is important to run sudo pacman -Syu and 
 # reboot after a fresh installation. This script 
