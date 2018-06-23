@@ -87,7 +87,8 @@ sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.
 # Copy oh-my-zsh.sh
 sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/oh-my-zsh.sh ~/.oh-my-zsh/
 
-# Copy .zshrc personal configuration
+# Replace .zshrc with personal configuration
+rm ~/.zshrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
 
 ###################################
