@@ -54,7 +54,7 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
 # Add .Xmodmap to ~/
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xmodmap ~/
 
-# Replace .Xresources with personal configuration
+# Add .Xresources to ~/
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xresources ~/
 
 
