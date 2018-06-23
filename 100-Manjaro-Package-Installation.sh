@@ -9,11 +9,11 @@
 # is intended to be run directly after a fresh 
 # installation and reboot.
 
-########################################
-#### Loading Mirrors and Updating  #####
-########################################
+#########################################
+##### Loading Mirrors and Updating  #####
+#########################################
 
-# Repalace pacman.conf with personal configuration
+# Replace pacman.conf with personal configuration
 sudo rm /etc/pacman.conf
 sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/pacman.conf /etc/
 
