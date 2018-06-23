@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="pygmalion" # "robbyrussell"
+ZSH_THEME="pygmalion"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 
 # auto-suggestions
 bindkey '^ ' autosuggest-accept
+bindkey '^e' vi-forward-word
 
 #######################
 ##### Enable Ruby #####
@@ -110,12 +111,13 @@ source ~/.rvm/scripts/rvm
 # Enables all users to run ruby scripts from command line
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change. (This is added automatically when rvm is installed.)
+# Add RVM to PATH for scripting. Make sure this is the last PATH 
+# variable change. (This is added automatically when rvm is installed.)
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # Execute tmux on start
-tmux attach &> /dev/null
+# tmux attach &> /dev/null
 
-if [[ ! $TERM =~ screen ]]; then
-    exec tmux
-fi
+# if [[ ! $TERM =~ screen ]]; then
+#     exec tmux
+# fi
