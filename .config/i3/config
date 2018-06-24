@@ -221,12 +221,14 @@ mode "resize" {
 set $Background_Color	#2f343f
 set $Text_Color1	#f3f4f5
 set $Text_Color2	#000000
-set $Red		#00FF00
+set $Red		#FF0000
+set $Green		#00FF00
+set $Blue		#0000FF
 set $Transparent	#00000000
 
 # Window Colors
 # 		Border			Background		Text		Indicator
-client.focused	$Background_Color	$Background_Color	$Text_Color1	$Red
+client.focused	$Background_Color	$Background_Color	$Text_Color1	$Green
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -235,9 +237,9 @@ bar {
         status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 	colors {
 #		Bar Background		Color
-		background		$Background_Color
+		background		$Transparent
 #					Border			Background		Text
-		focused_workspace	$Background_Color	$Background_Color	$Text_Color1
+		focused_workspace	$Transparent 		$Transparent 		$Text_Color1
 	}
 }
 
