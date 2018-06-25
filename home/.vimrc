@@ -104,8 +104,11 @@ nmap ;nv :vert<Space>new<Space>
 nmap ;nt :tabnew<Space>
 
 "Close current tab
-nmap ;ct <Esc>:tabclose<CR>
+nmap ;ct :tabclose<CR>
 
 "Close current window
-nmap ;cw <Esc>:close<CR>
+nmap ;cw :close<CR>
+
+"Save current file
+nmap ;w <Esc>:w<Esc>
 
