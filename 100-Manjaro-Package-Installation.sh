@@ -139,6 +139,9 @@ sudo pacman -S xf86-input-synaptics
 # Install xorg-xbacklight
 sudo pacman -S xorg-xbacklight
 
+# Install xorg-xrandr
+sudo pacman -S xorg-xrandr
+
 # Install zathura
 sudo pacman -S zathura
 sudo pacman -S zathura-pdf-mupdf
