@@ -57,6 +57,9 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xmodmap ~/
 # Add .Xresources to ~/
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xresources ~/
 
+# Add .XresourcesHiDPI to ~/
+cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.XresourcesHiDPI ~/
+
 # Add .Xstart.zsh to ~/
 # Be sure to add this as a startup application in 
 # order to load .Xresources in the Cinnamon Desktop.
