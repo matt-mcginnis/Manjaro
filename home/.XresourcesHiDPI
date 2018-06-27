@@ -2,7 +2,7 @@
 ########## Matts .Xresources ##########
 #######################################
 
-Xft.dpi:	96
+Xft.dpi:	275
 Xft.autohint:	0
 Xft.hintstyle:	hintfull
 Xft.hinting:	1

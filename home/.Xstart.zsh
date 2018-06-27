@@ -1,2 +1,2 @@
 #!/bin/zsh
-xrdb ~/.Xresources
+xrdb ~/.XresourcesHiDPI
