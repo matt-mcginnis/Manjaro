@@ -75,7 +75,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 #Decrease B
 ##### Touchpad Toggle Keybinding #####
 ######################################
 
-bindsym $mod+shift+t exec ~/.config/i3/.touch_toggle.sh
+bindsym $mod+shift+t exec --no-startup-id ~/.config/i3/.touch_toggle.sh
 
 #######################################
 ##### Window Movement Keybindings #####
