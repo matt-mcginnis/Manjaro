@@ -12,18 +12,11 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+#font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
-
-# Before i3 v4.8, we used to recommend this one as the default:
-# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-# The font above is very space-efficient, that is, it looks good, sharp and
-# clear in small sizes. However, its unicode glyph coverage is limited, the old
-# X core fonts rendering does not support right-to-left and this being a bitmap
-# font, it doesn’t scale on retina/hidpi displays.
+font pango:DejaVu Sans Mono 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -105,14 +98,26 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+############################
+##### Window Splitting #####
+############################
+
 # split in vertical orientation
 bindsym $mod+h split v
 
 # split in horizontal orientation
 bindsym $mod+v split h
 
+#######################
+##### Full Screen #####
+#######################
+
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
+
+######################################
+##### Container Layout and Focus #####
+######################################
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -130,6 +135,10 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+
+######################
+##### Workspaces #####
+######################
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -218,7 +227,10 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-# Color Scheme
+########################
+##### Color Scheme #####
+########################
+
 set $Background_Color	#2f343f
 set $Text_Color1	#f3f4f5
 set $Text_Color2	#000000
@@ -230,6 +242,10 @@ set $Transparent	#00000000
 # Window Colors
 # 		Border			Background		Text		Indicator
 client.focused	$Background_Color	$Background_Color	$Text_Color1	$Green
+
+######################
+##### Status Bar #####
+######################
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
