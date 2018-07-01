@@ -60,6 +60,8 @@ ZSH_THEME="random"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  vi-mode
+  web-search
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
@@ -100,6 +102,7 @@ fi
 #######################
 
 # auto-suggestions
+bindkey '^f' autosuggest-accept
 bindkey '^e' vi-forward-word
 
 #######################
