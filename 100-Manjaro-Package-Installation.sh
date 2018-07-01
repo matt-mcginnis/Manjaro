@@ -49,6 +49,9 @@ sudo pacman -S fish
 # Install flash
 sudo pacman -S flashplugin
 
+# Install fortune
+sudo pacman -S fortune-mod
+
 # Install ttf-font-awesome
 sudo pacman -S ttf-font-awesome
 
