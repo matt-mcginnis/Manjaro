@@ -84,12 +84,6 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
 # Make zsh the default shell
 chsh -s /usr/bin/zsh
 
-# Copy .oh-my-zsh/custom personal configurations
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/custom/auto-suggestions.zsh ~/.oh-my-zsh/custom/
-
-# Copy oh-my-zsh.sh
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.oh-my-zsh/oh-my-zsh.sh ~/.oh-my-zsh/
-
 # Replace .zshrc with personal configuration
 rm ~/.zshrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
