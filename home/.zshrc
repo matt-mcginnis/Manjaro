@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="pygmalion"
+ZSH_THEME="random"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -61,6 +61,7 @@ ZSH_THEME="pygmalion"
 plugins=(
   git
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -99,7 +100,6 @@ fi
 #######################
 
 # auto-suggestions
-bindkey '^ ' autosuggest-accept
 bindkey '^e' vi-forward-word
 
 #######################
