@@ -26,8 +26,6 @@ Plugin 'powerline/powerline'
 
 "Install ultisnips
 Plugin 'SirVer/ultisnips'
-"Install the actual snippets
-Plugin 'honza/vim-snippets'
 
 "Install vim-latex
 Plugin 'vim-latex/vim-latex'
