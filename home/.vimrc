@@ -78,9 +78,9 @@ let g:Tex_MultipleCompileFormats = 'pdf, aux'
 
 " Ultisnippets Settings
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<c-f>"
+let g:UltiSnipsExpandTrigger="<c-e>"
 let g:UltiSnipsListSnippets="<c-l>"
-let g:UltiSnipsJumpForwardTrigger="<c-w>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
 " If you want :UltiSnipsEdit to split your window.
@@ -95,30 +95,36 @@ let g:UltiSnipsEditSplit="vertical"
 "###############
 
 "Open new file with horizontal split
-nmap ;nh :new<Space>
+nmap ;hn :new<Space>
 
 "Open new file with vertical split
-nmap ;nv :vert<Space>new<Space>
+nmap ;vn :vert<Space>new<Space>
 
 "Close current window
-nmap ;cw :close<CR>
+nmap ;wc :close<CR>
 
 "############
 "### Tabs ###
 "############
 
-"Open new file in new tab
-nmap ;nt :tabnew<Space>
+"Find file in 'path' and open in new tab
+nmap ;tf :tabfind<Space>
+
+"Open new tab
+nmap ;tn :tabnew<CR>
+
+"Open file in new tab
+nmap ;to :tabedit<Space>
 
 "Close current tab
-nmap ;ct :tabclose<CR>
+nmap ;tc :tabclose<CR>
 
 "Vim-like navigation for tabs
-nnoremap <C-t>h  :tabfirst<CR>
-nnoremap <C-t>k  :tabnext<CR>
-nnoremap <C-t>j  :tabprev<CR>
-nnoremap <C-t>l  :tablast<CR>
+nnoremap <C-t><C-h>  :tabfirst<CR>
+nnoremap <C-t><C-k>  :tabnext<CR>
+nnoremap <C-t><C-j>  :tabprev<CR>
+nnoremap <C-t><C-l>  :tablast<CR>
 
 "Save current file
-nmap ;w <Esc>:w<Esc>
+nmap ;w <Esc>:w<CR>
 
