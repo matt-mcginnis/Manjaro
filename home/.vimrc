@@ -123,6 +123,3 @@ nnoremap <C-t><C-k>  :tabnext<CR>
 nnoremap <C-t><C-j>  :tabprev<CR>
 nnoremap <C-t><C-l>  :tablast<CR>
 
-"Save current file
-nmap ;w :w<CR>
-
