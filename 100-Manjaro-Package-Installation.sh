@@ -64,6 +64,9 @@ curl https://cli-assets.heroku.com/install-standalone.sh | sh
 # Install i3-gaps, i3status, i3blocks, i3lock
 sudo pacman -S i3-gaps i3blocks i3lock i3status
 
+# Install jhead
+sudo pacman -S jhead
+
 # Install mlocate
 sudo pacman -S mlocate
 
