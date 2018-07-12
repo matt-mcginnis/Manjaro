@@ -61,7 +61,7 @@ sudo pacman -S gvim
 # Install heroku toolbelt
 curl https://cli-assets.heroku.com/install-standalone.sh | sh
 
-# Install i3-gaps, i3status, i3blocks, i3lock
+# Install i3-gaps, i3blocks, i3lock, i3status
 sudo pacman -S i3-gaps i3blocks i3lock i3status
 
 # Install jhead
