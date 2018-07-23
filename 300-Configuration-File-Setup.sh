@@ -84,6 +84,18 @@ cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
 # Make zsh the default shell
 chsh -s /usr/bin/zsh
 
+# Install zsh-autosuggestions
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# Install zsh-syntax-highlighting
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# Install zsh-vim-mode
+cd ~/.oh-my-zsh/custom/plugins
+git clone https://github.com/softmoth/zsh-vim-mode ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-vim-mode
+
 # Replace .zshrc with personal configuration
 rm ~/.zshrc
 cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
