@@ -117,9 +117,13 @@ nmap ;to :tabedit<Space>
 "Close current tab
 nmap ;tc :tabclose<CR>
 
-"Vim-like navigation for tabs
-nnoremap <C-t><C-h>  :tabfirst<CR>
-nnoremap <C-t><C-k>  :tabnext<CR>
-nnoremap <C-t><C-j>  :tabprev<CR>
-nnoremap <C-t><C-l>  :tablast<CR>
+"Navigation for tabs
+nnoremap <C-t><C-h>  :tabnext<CR>
+nnoremap <C-t><C-l>  :tabprev<CR>
+
+"################
+"### Nerdtree ###
+"################
+
+nmap ;nt :NERDTreeToggle<CR>
 
