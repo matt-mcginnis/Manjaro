@@ -88,18 +88,30 @@ let g:UltiSnipsEditSplit="vertical"
 "##### Keybindings #####
 "#######################
 
-"###############
-"### Windows ###
-"###############
+"###################
+"### Map ;; to ; ###
+"###################
+noremap ;; ;
+
+"#########################
+"### Windows (Buffers) ###
+"#########################
+
+"Open file in new window
+nmap ;W :e<Space>
+
+"Close current buffer
+nmap ;X :bd<CR>
+
+"#######################
+"### Panes (Windows) ###
+"#######################
 
 "Open new file with horizontal split
-nmap ;hn :new<Space>
+nmap ;_ :new<Space>
 
 "Open new file with vertical split
-nmap ;vn :vert<Space>new<Space>
-
-"Close current window
-nmap ;X :close<CR>
+nmap ;\| :vert<Space>new<Space>
 
 "############
 "### Tabs ###
@@ -115,8 +127,8 @@ nmap ;o :tabedit<Space>
 nmap ;x :tabclose<CR>
 
 "Navigation for tabs
-nnoremap ;n  :tabnext<CR>
-nnoremap ;p  :tabprev<CR>
+nmap ;n  :tabnext<CR>
+nmap ;p  :tabprev<CR>
 
 "################
 "### Nerdtree ###
