@@ -97,6 +97,11 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+##############################
+##### Turn of error bell #####
+##############################
+xset b off
+
 #######################
 ##### Keybindings #####
 #######################
@@ -124,3 +129,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # if [[ ! $TERM =~ screen ]]; then
 #     exec tmux
 # fi
+
+
