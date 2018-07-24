@@ -99,27 +99,28 @@ nmap ;hn :new<Space>
 nmap ;vn :vert<Space>new<Space>
 
 "Close current window
-nmap ;wc :close<CR>
+nmap ;X :close<CR>
 
 "############
 "### Tabs ###
 "############
 
-"Find file in 'path' and open in new tab
-nmap ;tf :tabfind<Space>
-
 "Open new tab
-nmap ;tn :tabnew<CR>
+nmap ;t :tabnew<CR>
 
 "Open file in new tab
-nmap ;to :tabedit<Space>
+nmap ;o :tabedit<Space>
 
 "Close current tab
-nmap ;tc :tabclose<CR>
+nmap ;x :tabclose<CR>
 
-"Vim-like navigation for tabs
-nnoremap <C-t><C-h>  :tabfirst<CR>
-nnoremap <C-t><C-k>  :tabnext<CR>
-nnoremap <C-t><C-j>  :tabprev<CR>
-nnoremap <C-t><C-l>  :tablast<CR>
+"Navigation for tabs
+nnoremap ;n  :tabnext<CR>
+nnoremap ;p  :tabprev<CR>
+
+"################
+"### Nerdtree ###
+"################
+
+nmap ;NT :NERDTreeToggle<CR>
 
