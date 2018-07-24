@@ -122,5 +122,17 @@ nnoremap ;p  :tabprev<CR>
 "### Nerdtree ###
 "################
 
+<<<<<<< HEAD
 nmap ;NT :NERDTreeToggle<CR>
+=======
+"Navigation for tabs
+nnoremap <C-t><C-h>  :tabnext<CR>
+nnoremap <C-t><C-l>  :tabprev<CR>
+
+"################
+"### Nerdtree ###
+"################
+
+nmap ;nt :NERDTreeToggle<CR>
+>>>>>>> 32fdc2b813075f776b7edac3902fca3cec23cbed
 
