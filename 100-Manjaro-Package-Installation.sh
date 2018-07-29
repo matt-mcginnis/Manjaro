@@ -84,13 +84,23 @@ sudo pacman -S pepper-flash
 # Install php
 sudo pacman -S php
 
+# Install powerline
+sudo pacman -S powerline powerline-vim
+
+##################
+### For Python ###
+##################
+
 # Install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 sudo rm ~/GitHub/Manjaro-Linux-Cinnamon/get-pip.py
 
-# Install powerline
-sudo pacman -S powerline powerline-vim
+# Install autopep8
+sudo pip install --upgrade autopep8
+
+# Install isort
+sudo pip install isort
 
 # Install pybeautifier
 sudo pip install pybeautifier
