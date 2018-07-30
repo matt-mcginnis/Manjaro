@@ -27,6 +27,10 @@ Plugin 'powerline/powerline'
 "Install ultisnips
 Plugin 'SirVer/ultisnips'
 
+"Install actual snippets
+"Snippets are separated from the engine. Add this if you want them:
+Plugin 'honza/vim-snippets'
+
 "Install vim-latex
 Plugin 'vim-latex/vim-latex'
 
@@ -57,14 +61,17 @@ colorscheme darkblue
 let g:powerline_pycmd="py3"
 :set laststatus=2
 
-if ! has('gui_running')
-    set ttimeoutlen=10
-    augroup FastEscape
-        autocmd!
-        au InsertEnter * set timeoutlen=0
-        au InsertLeave * set timeoutlen=1000
-    augroup END
-endif
+"Remove delay for powerline insert/normal/visual change.
+"(Uncommenting this will disrupt functionallity of emmet in insert mode.)
+
+"if ! has('gui_running')
+"    set timeoutlen=10
+"    augroup FastEscape
+"        autocmd!
+"        au InsertEnter * set timeoutlen=0
+"        au InsertLeave * set timeoutlen=1000
+"    augroup END
+"endif
 
 " Vim-Latex Settings
 set grepprg=grep\ -nH\ $*
@@ -83,6 +90,9 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+" Emmet Settings
+let g:user_emmet_leader_key='<c-z>'
 
 "#######################
 "##### Keybindings #####
