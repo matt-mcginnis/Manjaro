@@ -96,9 +96,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/softmoth/zsh-vim-mode ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-vim-mode
 
+# Copy zsh-autosuggestions custom plugin
+cp ~/GitHub/Manjaro/.oh-my-zsh/custom/zsh-autosuggestions.zsh ~/.oh-my-zsh/custom/
+
 # Replace .zshrc with personal configuration
 rm ~/.zshrc
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.zshrc ~/
+cp ~/GitHub/Manjaro/home/.zshrc ~/
 
 ###################################
 ##### Various System Settings #####
