@@ -6,7 +6,7 @@
 # Color to use when highlighting suggestion
 # Uses format of `region_highlight`
 # More info: http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Zle-Widgets
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 # Prefix to use when saving original versions of bound widgets
 ZSH_AUTOSUGGEST_ORIGINAL_WIDGET_PREFIX=autosuggest-orig-
