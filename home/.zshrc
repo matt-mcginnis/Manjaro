@@ -107,8 +107,8 @@ xset b off
 #######################
 
 # auto-suggestions
-bindkey '^f' autosuggest-accept
-bindkey '^e' vi-forward-word
+bindkey '^e' autosuggest-accept
+bindkey '^f' vi-forward-word
 
 #######################
 ##### Enable Ruby #####
