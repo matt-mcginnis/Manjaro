@@ -81,6 +81,9 @@ let g:Tex_ViewRule_pdf='zathura'
 let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_MultipleCompileFormats = 'pdf, aux'
 
+"Change jump forward trigger to ctrl-space
+imap <C-space> <Plug>IMAP_JumpForward
+
 " Ultisnippets Settings
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<c-e>"
