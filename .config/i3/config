@@ -64,6 +64,11 @@ bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle; exec pkill -RT
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 #Increase Brightness by 5
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 #Decrease Brightness by 5
 
+#######################
+##### Screenshots #####
+#######################
+bindsym Print exec gnome-screenshot -i
+
 ######################################
 ##### Touchpad Toggle Keybinding #####
 ######################################
