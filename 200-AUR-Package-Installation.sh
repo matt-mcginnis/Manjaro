@@ -14,7 +14,7 @@ yaourt i3exit
 yaourt rxvt-unicode-pixbuf
 
 # Install spotify
-yaourt -i spotify
+yaourt -S spotify
 
 # Install urxvt-resize-font-git
 yaourt urxvt-resize-font-git
