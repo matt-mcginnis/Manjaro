@@ -52,14 +52,22 @@ syntax on
 :set mouse=a
 :set backspace=indent,eol,start
 
-let &t_SI = "\<Esc>[6 q"
-let &t_SR = "\<Esc>[4 q"
-let &t_EI = "\<Esc>[2 q"
+" Set cursors for insert, normal and replace mode
+" Check if we are in tmux
+if exists('$TMUX')
+  let &t_SI = "\ePtmux;\e\e[6 q\e\\"
+  let &t_SR = "\ePtmux;\e\e[4 q\e\\"
+  let &t_EI = "\ePtmux;\e\e[2 q\e\\"
+else
+  let &t_SI = "\<Esc>[6 q"
+  let &t_SR = "\<Esc>[4 q"
+  let &t_EI = "\<Esc>[2 q"
+endif
 
 " Settings for gvim
 colorscheme darkblue
 :set guifont=Dejavu\ Sans\ Mono\ for\ Powerline\ 12
-" Disable all blinking:
+" Disable all blinking
 :set guicursor+=a:blinkon0
 
 " Powerline Settings
