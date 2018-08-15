@@ -52,26 +52,19 @@ syntax on
 :set mouse=a
 :set backspace=indent,eol,start
 
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
 " Settings for gvim
 colorscheme darkblue
 :set guifont=Dejavu\ Sans\ Mono\ for\ Powerline\ 12
+" Disable all blinking:
 :set guicursor+=a:blinkon0
 
 " Powerline Settings
 let g:powerline_pycmd="py3"
 :set laststatus=2
-
-"Remove delay for powerline insert/normal/visual change.
-"(Uncommenting this will disrupt functionallity of emmet in insert mode.)
-
-"if ! has('gui_running')
-"    set timeoutlen=10
-"    augroup FastEscape
-"        autocmd!
-"        au InsertEnter * set timeoutlen=0
-"        au InsertLeave * set timeoutlen=1000
-"    augroup END
-"endif
 
 " Vim-Latex Settings
 set grepprg=grep\ -nH\ $*
