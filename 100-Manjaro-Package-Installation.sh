@@ -15,7 +15,7 @@
 
 # Replace pacman.conf with personal configuration
 sudo rm /etc/pacman.conf
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/pacman.conf /etc/
+sudo cp ~/GitHub/Manjaro/etc/pacman.conf /etc/
 
 # Create mirror list
 sudo pacman-mirrors --geoip
@@ -94,7 +94,7 @@ sudo pacman -S powerline powerline-vim
 # Install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
-sudo rm ~/GitHub/Manjaro-Linux-Cinnamon/get-pip.py
+sudo rm ~/GitHub/Manjaro/get-pip.py
 
 # Install autopep8
 sudo pip install --upgrade autopep8
