@@ -9,22 +9,22 @@
 ################################
 
 # Replace i3 configuration with personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3/ ~/.config/
+cp -r ~/GitHub/Manjaro/.config/i3/ ~/.config/
 
 # Replace i3blocks with personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/i3blocks/ ~/.config/
+cp -r ~/GitHub/Manjaro/.config/i3blocks/ ~/.config/
 
 # Copy neomuttrc personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/neomutt/ ~/.config/
+cp -r ~/GitHub/Manjaro/.config/neomutt/ ~/.config/
 
 # Copy powerline personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/powerline ~/.config/
+cp -r ~/GitHub/Manjaro/.config/powerline ~/.config/
 
 # Copy ranger personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/ranger/ ~/.config/
+cp -r ~/GitHub/Manjaro/.config/ranger/ ~/.config/
 
 # Replace qutebrowser with personal configuration
-sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qutebrowser ~/.config/
+sudo cp -r ~/GitHub/Manjaro/.config/qutebrowser ~/.config/
 
 
 ############################
@@ -33,11 +33,11 @@ sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.config/qutebrowser ~/.config/
 
 # Replace tlp with personal configuration (SOUND_POWER_SAVE_ON_BAT=0)
 sudo rm /etc/default/tlp
-sudo cp ~/GitHub/Manjaro-Linux-Cinnamon/etc/default/tlp /etc/default/
+sudo cp ~/GitHub/Manjaro/etc/default/tlp /etc/default/
 
 # Replace xorg.conf.d files
 sudo rm -r /etc/X11/xorg.conf.d/
-sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/etc/X11/xorg.conf.d/ /etc/X11/
+sudo cp -r ~/GitHub/Manjaro/etc/X11/xorg.conf.d/ /etc/X11/
 
 
 #############################
@@ -46,24 +46,24 @@ sudo cp -r ~/GitHub/Manjaro-Linux-Cinnamon/etc/X11/xorg.conf.d/ /etc/X11/
 
 # Copy .bashrc personal configuration
 sudo rm ~/.bashrc
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.bashrc ~/
+cp ~/GitHub/Manjaro/home/.bashrc ~/
 
 # Copy .tmux.conf personal configuration
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.tmux.conf ~/
+cp ~/GitHub/Manjaro/home/.tmux.conf ~/
 
 # Add .Xmodmap to ~/
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xmodmap ~/
+cp ~/GitHub/Manjaro/home/.Xmodmap ~/
 
 # Add .Xresources to ~/
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xresources ~/
+cp ~/GitHub/Manjaro/home/.Xresources ~/
 
 # Add .XresourcesHiDPI to ~/
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.XresourcesHiDPI ~/
+cp ~/GitHub/Manjaro/home/.XresourcesHiDPI ~/
 
 # Add .Xstart.zsh to ~/
 # Be sure to add this as a startup application in 
 # order to load .Xresources in the Cinnamon Desktop.
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xstart.zsh ~/
+cp ~/GitHub/Manjaro/home/.Xstart.zsh ~/
 
 
 #####################
@@ -71,10 +71,10 @@ cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.Xstart.zsh ~/
 #####################
 
 # Copy .vimrc personal configuration
-cp ~/GitHub/Manjaro-Linux-Cinnamon/home/.vimrc ~/
+cp ~/GitHub/Manjaro/home/.vimrc ~/
 
 # Copy .vim/after/ personal configuration
-cp -r ~/GitHub/Manjaro-Linux-Cinnamon/.vim/after/ ~/.vim/
+cp -r ~/GitHub/Manjaro/.vim/after/ ~/.vim/
 
 
 #####################
