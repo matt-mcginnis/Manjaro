@@ -120,9 +120,9 @@ curl -sSL https://get.rvm.io | bash -s stable
 # The following line may have to be run again in zsh in 
 # order to use ruby inside the zsh shell.
 source ~/.rvm/scripts/rvm
-rvm install 2.4
-rvm use 2.4
-rvm --default use 2.4
+rvm install 2.5
+rvm use 2.5
+rvm --default use 2.5
 gem install htmlbeautifier
 gem install rails
 gem install rubocop
