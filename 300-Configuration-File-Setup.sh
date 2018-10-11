@@ -39,6 +39,12 @@ sudo cp ~/GitHub/Manjaro/etc/default/tlp /etc/default/
 sudo rm -r /etc/X11/xorg.conf.d/
 sudo cp -r ~/GitHub/Manjaro/etc/X11/xorg.conf.d/ /etc/X11/
 
+############################
+##### usr file changes #####
+############################
+
+# A temporary wrapper fix for gvfs-trash to work in atom
+sudo cp ~/GitHub/Manjaro/usr/bin/gvfs-trash /usr/bin/
 
 #############################
 ##### home file changes #####
