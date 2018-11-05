@@ -13,6 +13,9 @@ yaourt i3exit
 # Install mono-basic
 yaourt -S mono-basic
 
+# Install monodevelop-stable
+yaourt -S monodevelop-stable
+
 # Install rxvt-unicode-pixbuf
 yaourt rxvt-unicode-pixbuf
 
