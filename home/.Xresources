@@ -16,7 +16,7 @@ Xft.rgba:	rgb
 *background:		#151515
 *foreground:		#d0d0d0
 
-URxvt.font: 		xft:Dejavu\ Sans\ Mono\ for\ Powerline:size=10
+URxvt.font: 		xft:Dejavu\ Sans\ Mono\ for\ Powerline:size=16
 URxvt.scrollBar: 	false
 
 URxvt.depth:		32
