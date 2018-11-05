@@ -70,6 +70,9 @@ sudo pacman -S jhead
 # Install mlocate
 sudo pacman -S mlocate
 
+# Install mono
+sudo pacman -S mono
+
 # Install neofetch
 sudo pacman -S neofetch
 
@@ -157,6 +160,9 @@ sudo pacman -S xorg-xbacklight
 
 # Install xorg-xrandr
 sudo pacman -S xorg-xrandr
+
+# Install xterm
+sudo pacman -S xterm
 
 # Install zathura
 sudo pacman -S zathura
