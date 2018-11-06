@@ -52,9 +52,9 @@ exec --no-startup-id xrandr --output eDP1 --mode 1920x1080
 ##############
 
 # Modifying RaiseVolume and LowerVolume increments
-bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 2%+; exec pkill -RTMIN+10 i3blocks 
-bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 2%-; exec pkill -RTMIN+10 i3blocks
-bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle; exec pkill -RTMIN+10
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master 2%+; exec pkill -RTMIN+10 i3blocks 
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q -D pulse sset Master 2%-; exec pkill -RTMIN+10 i3blocks
+bindsym XF86AudioMute exec --no-startup-id amixer -q -D pulse sset Master toggle; exec pkill -RTMIN+10
 
 ##################
 ### Brightness ###
