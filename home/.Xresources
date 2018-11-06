@@ -6,7 +6,7 @@ Xft.dpi:	132
 Xft.autohint:	0
 Xft.hintstyle:	hintfull
 Xft.hinting:	1
-Xft.anialias:	1
+Xft.antialias:	1
 Xft.rgba:	rgb
 
 ###############################
@@ -16,7 +16,7 @@ Xft.rgba:	rgb
 *background:		#151515
 *foreground:		#d0d0d0
 
-URxvt.font: 		xft:Dejavu\ Sans\ Mono\ for\ Powerline:size=16
+URxvt.font:		xft:Dejavu\ Sans\ Mono\ for\ Powerline:size=9
 URxvt.scrollBar: 	false
 
 URxvt.depth:		32
@@ -58,4 +58,4 @@ URxvt.iso14755: 	false
 URxvt.iso14755_52: 	false
 
 ! XTerm Font Settings
-XTerm.vt100.faceName: Monospace:size=16:antialias=false
+XTerm.vt100.faceName: Dejavu\ Sans\ Mono\ for\ Powerline:size=9:antialias=false
