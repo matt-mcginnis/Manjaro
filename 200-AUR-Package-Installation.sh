@@ -22,6 +22,9 @@ yaourt rxvt-unicode-pixbuf
 # Install spotify
 yaourt -S spotify
 
+# Install unity 
+yaourt unity-editor-lts
+
 # Install urxvt-resize-font-git
 yaourt urxvt-resize-font-git
 
