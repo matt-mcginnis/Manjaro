@@ -112,7 +112,7 @@ sudo pip install isort
 sudo pip install pybeautifier
 
 # Install pywal
-sudo pacman -S python-pywal
+sudo pip3 install pywal
 
 # Install qutebrowser
 sudo pacman -S qutebrowser
