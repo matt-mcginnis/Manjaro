@@ -30,6 +30,9 @@ sudo pacman -Syyu
 # Install cmake
 sudo pacman -S cmake
 
+# Install code
+sudo pacman -S code
+
 # Install compton
 sudo pacman -S compton
 
