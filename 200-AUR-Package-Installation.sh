@@ -5,22 +5,22 @@
 ##############################################
 
 # Install google chrome
-yaourt google-chrome
+yaourt -S google-chrome
 
 # Install i3exit
-yaourt i3exit
+yaourt -S i3exit
 
 # Install j4-dmenu-desktop-git
-yaourt j4-dmenu-desktop-git
+yaourt -S j4-dmenu-desktop-git
 
 # Install rxvt-unicode-pixbuf
-yaourt rxvt-unicode-pixbuf
+yaourt -S rxvt-unicode-pixbuf
 
 # Install spotify
 yaourt -S spotify
 
 # Install urxvt-resize-font-git
-yaourt urxvt-resize-font-git
+yaourt -S urxvt-resize-font-git
 
 #################################################
 ########## GitHub Package Installation ##########

@@ -20,10 +20,6 @@ cp -r ~/GitHub/Manjaro/.config/neomutt/ ~/.config/
 # Copy ranger personal configuration
 cp -r ~/GitHub/Manjaro/.config/ranger/ ~/.config/
 
-# Replace qutebrowser with personal configuration
-sudo cp -r ~/GitHub/Manjaro/.config/qutebrowser ~/.config/
-
-
 ############################
 ##### etc file changes #####
 ############################
@@ -39,9 +35,6 @@ sudo cp -r ~/GitHub/Manjaro/etc/X11/xorg.conf.d/ /etc/X11/
 #############################
 ##### home file changes #####
 #############################
-
-# Copy .tmux.conf personal configuration
-cp ~/GitHub/Manjaro/home/.tmux.conf ~/
 
 # Add .Xmodmap to ~/
 cp ~/GitHub/Manjaro/home/.Xmodmap ~/
@@ -60,9 +53,6 @@ cp ~/GitHub/Manjaro/home/.Xstart.zsh ~/
 #####################
 ##### zsh setup #####
 #####################
-
-# Make zsh the default shell
-chsh -s /usr/bin/zsh
 
 # Install zsh-autosuggestions
 cd ~/.oh-my-zsh/custom/plugins
