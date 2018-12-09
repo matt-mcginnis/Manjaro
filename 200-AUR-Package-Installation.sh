@@ -13,20 +13,11 @@ yaourt i3exit
 # Install j4-dmenu-desktop-git
 yaourt j4-dmenu-desktop-git
 
-# Install mono-basic
-yaourt -S mono-basic
-
-# Install monodevelop-stable
-yaourt -S monodevelop-stable
-
 # Install rxvt-unicode-pixbuf
 yaourt rxvt-unicode-pixbuf
 
 # Install spotify
 yaourt -S spotify
-
-# Install unity 
-yaourt unity-editor-lts
 
 # Install urxvt-resize-font-git
 yaourt urxvt-resize-font-git
@@ -44,12 +35,6 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
-
-#############################################
-########## oh-my-fish Installation ##########
-#############################################
-
-curl -L https://get.oh-my.fish | fish
 
 ############################################
 ########## oh-my-zsh Installation ##########

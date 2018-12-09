@@ -27,10 +27,6 @@ sudo pacman -Syyu
 ##### Package Installation #####
 ################################
 
-# Install atom
-sudo pacman -S atom
-apm install sync-settings
-
 # Install cmake
 sudo pacman -S cmake
 
@@ -42,9 +38,6 @@ sudo pacman -S dmenu
 
 # Install feh
 sudo pacman -S feh
-
-# Install flash
-sudo pacman -S flashplugin
 
 # Install fortune
 sudo pacman -S fortune-mod
@@ -58,9 +51,6 @@ sudo pacman -S gnome-terminal-fedora
 # Install gvim
 sudo pacman -S gvim
 
-# Install heroku toolbelt
-curl https://cli-assets.heroku.com/install-standalone.sh | sh
-
 # Install i3-gaps, i3blocks, i3lock, i3status
 sudo pacman -S i3-gaps i3blocks i3lock i3status
 
@@ -70,28 +60,14 @@ sudo pacman -S jhead
 # Install mlocate
 sudo pacman -S mlocate
 
-# Install mono
-sudo pacman -S mono
-
-# Install mono-tools
-sudo pacman -S mono-tools
-
 # Install neofetch
 sudo pacman -S neofetch
 
 # Install neomutt
 sudo pacman -S neomutt
 
-# Install pepper-flash for chrome
-# Be sure to go to the chrome settings
-# to allow flash for specific websites.
-sudo pacman -S pepper-flash
-
 # Install php
 sudo pacman -S php
-
-# Install powerline
-sudo pacman -S powerline powerline-vim
 
 ##################
 ### For Python ###
@@ -143,17 +119,8 @@ sudo pacman -S syncthing
 # Install sysstat
 sudo pacman -S sysstat
 
-# Install texlive
-sudo pacman -S texlive-most
-
 # Install tmux
 sudo pacman -S tmux
-
-# Install vlc
-sudo pacman -S vlc
-
-# Install vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Install w3m
 sudo pacman -S w3m

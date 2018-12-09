@@ -1,1 +1,0 @@
-highlight Normal ctermbg=None

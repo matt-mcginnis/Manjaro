@@ -1,3 +1,0 @@
-#!/bin/bash
-# GVFS updated and dropped gvfs-trash to gio, but Atom didn't update.
-/usr/bin/gio trash "$@"
