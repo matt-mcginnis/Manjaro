@@ -82,3 +82,10 @@ sudo systemctl enable syncthing@matt.service
 
 # Set time to local-time (Dual Boot with Windows)
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
+
+###############################
+##### Generate Heroku Key #####
+###############################
+
+sudo ssh-keygen -t rsa -C "mcginnisma90@gmail.com"
+sudo heroku keys:add

@@ -7,6 +7,9 @@
 # Install google chrome
 yaourt -S google-chrome
 
+# Install heroku-cli
+yaourt -S heroku-cli
+
 # Install i3exit
 yaourt -S i3exit
 
